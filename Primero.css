@@ -1,0 +1,57 @@
+body
+{background-color: black;}
+h1 {color: white;
+text-align: center;
+font-size: 70px;}
+table {text-align: center;}
+html {
+    font-family: Arial;
+  }
+  
+  thead th, tfoot th {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  th {
+    letter-spacing: 10px;
+  }
+  
+  td {
+    letter-spacing: 10px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: center;
+  }
+  thead, tfoot {
+    background: url(pesa.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, white, black);
+    border: 3px solid black;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: black;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: black;
+  }
+  table {
+    background-color: white;
+  }
+  a:link,a:active,a:visited,a:hover {color: white;}
+  #contenido { width: 800px; margin: 0 auto; }
+  h3,p { 
+    text-align: center;
+    color: white;
+  }
+
+  

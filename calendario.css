@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: white;
+
+  }
+  h1{ color: white;
+font-size: 70px;
+text-align: center;}
+
+  .tabla2{
+    margin-top: 2em;
+  }
+  
+  .tabla2 th, .tabla2 td{
+    text-align: center;
+    padding: .2em .5em;
+    border: 1px solid white;
+  }
+  
+  .tabla2 caption{
+    text-align: left;
+    margin-bottom: 5px;
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  
+  .tabla2 td{
+    text-align: left;
+    font-size: .8em;
+    padding-bottom: 3em;
+    padding-right: 3em;
+  }
+  
+  .tabla2 td:hover{
+    background-color: grey;
+    cursor: pointer;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0;
+  }
+  .tabla2 {margin:0 auto}
+hr{ width: 70%;}
+#contenido { width: 800px; margin: 0 auto; }
